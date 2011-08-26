@@ -3,7 +3,7 @@
  * See contributors list in README
  */
 
-var occi            = require(process.env.NODEOCCI_HOME + "/node_oracle.node"); 
+var occi            = require(process.env.NODEOCCI_HOME + "/node_occi.node"); 
 var utils           = require(__dirname + "/utils.js"); 
 var sqlplaceholder  = require(__dirname + "/sqlplaceholder.js"); 
 
